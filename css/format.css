@@ -18,39 +18,40 @@ header{
 
 nav {
     text-align: center;
-    font-size: 25px;
+    font-size: clamp( 10px, 2vmax, 75px);
     background-color: aquamarine;
 }
 .nav-link{
-    border-radius: 10px;
+    border-radius: 1vmax;
 }
 #Selected_Page{
-    border-radius: 10px;
+    border-radius: 1vmax;
     background-color: black;
     color: aquamarine;
 }
 #hovered{
-    border-radius: 10px;
+    border-radius: 1vmax;
     background-color: white;
 }
 section{
     border: 10px;
-    margin: 15px;
-    min-height: 500px;
-    background-color: rgba(202, 255, 235, 0.507);
+    margin: 30px;
+    min-height: 70vh;
+    background-color: rgba(202, 255, 235, 0.500);
 }
-h1{
+.page-intro{
     font-weight: bold;
+    font-size: 3vmax;
 }
 article{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2vmax;
 }
 footer{
-    font-size: 20px;
+    font-size: 2vmax;
     background-color: aquamarine;
     text-align: center;
 }
 .footer{
-    font-size: xx-small;
+    font-size:2vmax;
 }
