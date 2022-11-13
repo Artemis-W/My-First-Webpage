@@ -9,13 +9,11 @@ body{
     background-color: rgb(117, 201, 169);
     background-image: url(../images/background.png);
     background-repeat: repeat-y;
-    background-size: cover;
 }
 header{
     background-color: white;
     text-align: center;
 }
-
 nav {
     text-align: center;
     font-size: clamp( 10px, 2vmax, 75px);
@@ -23,6 +21,10 @@ nav {
 }
 .nav-link{
     border-radius: 1vmax;
+}
+.navbar-toggle{
+    width: 50px;
+    background-image: url(../images/heart.png);
 }
 #Selected_Page{
     border-radius: 1vmax;
