@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Deltarune';
+    src: url(../fonts/deltarune.ttf);
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../images/background.png);
+    background-repeat: repeat-y;
+}
+header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+#header{
+    font-family: 'Deltarune';
+    font-size: 2.5vmax;
+}
+#theme-btn{
+    background-color: aquamarine;
+    font-family: 'Deltarune';
+    color: black;
+    padding: 10px;
+    border-radius: 1vmax;
+}
+nav {
+    text-align: center;
+    font-size: clamp( 10px, 2vmax, 75px);
+    background-color: aquamarine;
+}
+.nav-link{
+    border-radius: 1vmax;
+}
+.navbar-toggle{
+    width: 50px;
+    background-image: url(../images/heart.png);
+}
+#Selected_Page{
+    border-radius: 1vmax;
+    background-color: black;
+    color: aquamarine;
+}
+#hovered{
+    border-radius: 1vmax;
+    background-color: white;
+}
+section{
+    border: 10px;
+    margin: 30px;
+    min-height: 70vh;
+    background-color: rgba(202, 255, 235, 0.500);
+}
+.page-intro{
+    font-weight: bold;
+    font-size: 3vmax;
+}
+article{
+    font-weight: bold;
+    font-size: 2vmax;
+}
+footer{
+    font-size: 2vmax;
+    background-color: aquamarine;
+    text-align: center;
+}
+.footer{
+    font-size:2vmax;
+}
