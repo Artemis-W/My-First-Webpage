@@ -21,57 +21,13 @@ header{
     font-family: 'Deltarune';
     font-size: 2.5vmax;
 }
-
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-}
-input:checked + .slider {
+#theme-btn{
     background-color: aquamarine;
+    font-family: 'Deltarune';
+    color: black;
+    padding: 10px;
+    border-radius: 1vmax;
 }
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-.slider.round {
-    border-radius: 34px;
-}
-.slider.round:before {
-    border-radius: 50%;
-}
-
-
 nav {
     text-align: center;
     font-size: clamp( 10px, 2vmax, 75px);
@@ -114,4 +70,32 @@ footer{
 }
 .footer{
     font-size:2vmax;
+}
+
+body.dark{
+    background-image:  url(../images/stars.gif), linear-gradient(to right, purple, black);
+}
+header.dark{
+    background-color: black;
+}
+#header.dark{
+    color:white;
+}
+#theme-btn.dark{
+    background-color: blueviolet;
+    color: white;
+}
+nav.dark {
+    background: blueviolet;
+}
+#Selected_Page.dark{
+    color: blueviolet;
+    background-color: black;
+}
+section.dark{
+    background-color: rgba(238, 130, 238, 0.479);
+}
+footer.dark{
+    background-color:blueviolet;
+    color: white;
 }
