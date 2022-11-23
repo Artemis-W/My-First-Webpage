@@ -95,7 +95,6 @@ nav {
     border-radius: 1vmax;
     background-color: white;
     color: black;
-    transform: scale(1.2, 1.2);
 }
 section{
     border: 10px;
@@ -119,4 +118,7 @@ footer{
 }
 .footer{
     font-size:2vmax;
+}
+.contacts{
+    color: aquamarine !important
 }

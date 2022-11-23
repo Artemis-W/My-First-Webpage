@@ -11,7 +11,7 @@ function initTheme() {
     var darkThemeSelected = (localStorage.getItem('themeSwitch') !== null && localStorage.getItem('themeSwitch') === 'dark');
     // update checkbox
     themeSwitch.checked = darkThemeSelected;
-    // update body data-theme attribute
+    // update body data-theme attribut
     darkThemeSelected ? cssElem.href = './css/dark.css': cssElem.href = './css/light.css'
 };
 
