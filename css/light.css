@@ -11,7 +11,11 @@
 body{
     background-image: url(../images/background.png);
     background-repeat: repeat-y;
+    background-size: contain;
 }
+
+
+
 header{
     background-color: white;
     text-align: center;
@@ -93,6 +97,9 @@ nav {
     border-radius: 1vmax;
     background-color: white;
 }
+
+
+
 section{
     border: 10px;
     margin: 30px;
@@ -107,6 +114,32 @@ article{
     font-weight: bold;
     font-size: 2vmax;
 }
+#games_header{
+    font-family: Deltarune;
+    font-weight: bold;
+    font-size: clamp( 15px, 3vmax, 125px);
+}
+#game{
+    width: 100%;
+    height: 75vh
+}#game_bar{
+    background: aquamarine;
+    text-align: center;
+    font-size: clamp( 10px, 2vmax, 75px);
+    margin: 10px;
+}
+.game_selector{
+    color: blueviolet !important;
+    border-radius: 1vmax;
+    text-decoration: 0px !important;
+}
+#hovered_g{
+    border-radius: 1vmax;
+    background-color: white;
+}
+
+
+
 footer{
     font-size: 2vmax;
     background-color: aquamarine;

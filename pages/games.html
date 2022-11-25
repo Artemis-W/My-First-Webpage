@@ -56,9 +56,26 @@
     </nav>
 
     <section>
-        <h1 class="page-intro">This is Page 1</h1>
+        <h1 class="page-intro" id="games_header">This is the Games page</h1>
+        <div class="row container-fluid" id="game_bar">
+                <div class="col">
+                <a class="game_selector" id="tower_game" onmouseover="id='hovered_g'" onmouseout="id='tower_game'" href="../tower_game-master/index.html" target="game_screen">Tower Game</a> 
+                </div>
+                <div class="col">
+                <a class="game_selector" id="game_1" onmouseover="id='hovered_g'" onmouseout="id='game_1'" href="../pages/about.html" target="game_screen">game 1</a> 
+                </div>
+                <div class="col">
+                <a class="game_selector" id="game_2" onmouseover="id='hovered_g'" onmouseout="id='game_2'" href="../pages/about.html" target="game_screen">game 2</a> 
+                </div>
+                <div class="col">
+                <a class="game_selector" id="game_3" onmouseover="id='hovered_g'" onmouseout="id='game_3'" href="../pages/about.html" target="game_screen">game 3</a> 
+                </div>
+                <div class="col">
+                <a class="game_selector" id="game_4" onmouseover="id='hovered_g'" onmouseout="id='game_4'" href="../pages/about.html" target="game_screen">game 4</a> 
+                </div>
+        </div>
         <article>
-            
+            <iframe id="game" name="game_screen" src="" ></iframe>
         </article>
     </section>
 
